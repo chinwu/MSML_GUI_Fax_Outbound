@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moml version="1.0" id="FaxSend" name="FaxSend">
+<faxsend id="fax_id" lclid="local_id">	
+	<sendobj objuri="file://testFax.tif" maxpages="10"/>
+	<hdrfooter type="header" style="overlay">
+		<format>This is xms faxsnd footer (%m%d%Y)</format>
+	</hdrfooter>
+	<faxstart/>
+	<faxnegotiate/>
+	<faxpagedone/>
+	<faxobjectdone/>
+	<faxopcomplete/>	
+</faxsend>
+</moml>
